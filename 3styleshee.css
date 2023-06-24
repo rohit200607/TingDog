@@ -1,0 +1,23 @@
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, hsl(351, 100%, 65%), #ef8172);
+    background-size: 180% 180%;
+    animation: gradiant-animation  18s ease infinite;
+}
+
+@keyframes gradiant-animation{
+    0%  {background-position: 0% 50%;}
+    50% { background-position: 50% 100%;}
+    100%{ background-position: 0%  50%;}
+}
+
+#contact{
+    margin: 0;
+    padding: 0;
+}
+
+/* #gradiet-background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+} */
+
+
+
